@@ -20,18 +20,27 @@ This project supports role-based access (Admin & User), product management, cart
 ---
 
 ## 🚀 Features
+🛍️ Product Management (Admin Only)
+Secure admin login to access product dashboard
+Create products with title, description, price, specifications, and images
+Update products (price, stock, category, status: active/featured/discontinued)
+Delete products from catalog (admin-only access)
+View full product list with real-time search/filter
+Maintain audit log of all product changes (for accountability)
 
-### 👨‍💼 Admin
+🛒 Cart Management (Customer)
+Add to Cart: Select product with quantity, color, and size
+Real-time stock and price validation before adding items
+View Cart: Show product details, quantity, and subtotal in MYR
+Update Cart: Adjust quantity or remove items
+Clear Cart: Remove individual or all items with confirmation prompt
+Checkout: Pre-checkout stock validation + redirect to order page
 
-- Secure login
-- Create, update, and delete product
-- View user and update role user
-- View real-time user growth chart
-
-### 👨‍🎓 User
-
-- Role-based session and navigation
-- View list product
+💬 Review Management (Customer)
+Only logged-in users can submit reviews
+Create Review: General feedback (rating + comment)
+View Reviews: All submitted reviews with name/alias + rating
+Delete Review: Users can delete their own reviews
 
 ### 📊 Charts
 
